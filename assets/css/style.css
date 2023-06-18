@@ -1,0 +1,63 @@
+/*  necessary?
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*/
+/* styling the header */
+
+header {
+    background-color: rgba(255, 228, 196, 0.283);
+    width: 100%;
+}
+
+header nav ul li a {
+    display: inline-block;
+}
+
+header nav ul > li {
+    padding: 1rem .5rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+
+.header h1 {
+    margin: 1rem;
+}
+
+.header > nav ul li {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* styling the profile image */
+img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10rem;
+    position: static;
+}
+
+.p
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+section {
+    flex-wrap: wrap;
+}
+
+.contact{
+    border: solid black;
+}
