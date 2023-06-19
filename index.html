@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+
+
 <head>
     <title>Britain Gilgour Portfolio</title>
+    <meta charsets="UTF-8">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
  
 <body>
@@ -11,22 +16,22 @@
         <h1>Britain Gilgour</h1>
         <nav class="text-right">
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
-        <section>
+        <section class="about" id="about">
             <h2>About Me</h2>
-            <img src="./assets/images/placeholder-img.jpg" alt="placeholder image" >
+            <img src="./assets/images/placeholder-img.jpg" id="profile image" alt="placeholder image" class="image-profile">
             <p>I'm learning to code!</p>
 
         </section>
 
-        <section class="Contact">
+        <section class="contact" id="contact">
             <h2>Contact</h2>
             <p>
                 <a href="#">britaing@gmail.com</a>
@@ -41,21 +46,21 @@
             </p>
         </section>
 
-        <section>
+        <article id="projects"><!-- class="projects"-->  
             <h2>Projects</h2>
-            <div>
-                <h3>Project 1</h3>
+            <div class="project-1">
+               <a href="#"><img src="./assets/Images/p1placeholder.jpg" class="image-project1"></a>
             </div>
 
-            <div>
-                <h3>Project 2</h3>
+            <div class="project">
+                <a href="#"><img src="./assets/Images/p2placeholder.jpg" class="image-project"></a>
             </div>
 
-            <div>
-                <h3>Project 3</h3>
+            <div class="project">
+                <a href="#"><img src="./assets/Images/p3placeholder.jpeg" class="image-project"></a>
             </div>
 
-        </section>
+        </article>
 
 
 
