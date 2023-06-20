@@ -1,63 +1,95 @@
-/*  necessary?
 * {
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-*/
-/* styling the header */
+
+body {
+    background-color: #305252;
+}
 
 header {
-    background-color: rgba(255, 228, 196, 0.283);
     width: 100%;
+    background-color: #77878B;
+    color: black;
 }
 
-header nav ul li a {
-    display: inline-block;
+footer {
+    text-align: center;
 }
 
-header nav ul > li {
-    padding: 1rem .5rem;
+/* this affects the info in the about me section */
+.about {
+    
+    flex-wrap: wrap;
+    background-color: #305252;
+    color: black;
 }
 
-.text-right {
-    text-align: right;
+.info {
+    margin-right: 5%;
+    
 }
 
 
-body{
-    background-color: antiquewhite;
+.contact > p{
+    background-color: #B7D5D4;
+    color: black;
+    display: inline-flex;
+    
 }
 
-.header h1 {
-    margin: 1rem;
+
+
+article {
+    background-color: #488286;
+    color: black;
+}
+ 
+/* make the project images move */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+    
 }
 
+footer {
+    background-color: #77878B;
+    color: black;
+}
+
+/* navigation elements */
 .header > nav ul li {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-
+}
+.text-right {
+    text-align: right;
 }
 
-/* styling the profile image */
-img {
-    height: 20rem;
-    width: 20rem;
-    border-radius: 10rem;
+/* profile image settings */
+.image-profile {
     position: static;
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
 }
-
-.p
 
 h2 {
-    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-bottom:;
 }
 
-section {
-    flex-wrap: wrap;
+.image-project1 {
+    height:30rem;
+    width: 30rem;
+    
 }
 
-.contact{
-    border: solid black;
+.image-project {
+    height: 15rem;
+    width: 15rem;
+    
 }
