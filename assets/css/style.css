@@ -9,19 +9,83 @@ body {
 }
 
 header {
-    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #77878B;
     color: black;
 }
 
-article {
-    background-color: #488286;
-    color: black;
+/* navigation elements */
+header nav ul {
+    display: flex;
+    justify-content: space-around;
 }
- 
-h2 {
-    padding: 1rem;
-    background-color: #425a60
+
+header nav ul li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    background-color: #B7D5D4;
+}
+
+.about div{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.image-profile {
+    width: 100%;
+    border-radius: 50%;
+    }
+
+article {
+    width: 70%;
+    padding: 0 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+#projects {
+    margin: 15px;
+}
+
+.project div {
+    display: flex;
+    padding: 15px;
+}
+
+.projectImage1 {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    margin-right: 6px;
+}
+
+.projectImage2 {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
 }
 
 
@@ -29,95 +93,16 @@ footer {
     background-color: #77878B;
     color: black;
     text-align: center;
-}
-
-/* this affects the info in the about me section */
-.about {
-    height: 40%;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #305252;
-    color: black;
-    left: 25%;
-
-}
-
-.info {
-    position: relative;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 1%;
-    left: 25%;
-    
-    
-}
+} */
 
 
-.contact > p {
-    background-color: #B7D5D4;
-    color: black;
-    display: inline-flex;
-    margin-left: 1%;
-    
-}
-
-/* navigation elements */
-.header > nav ul li {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.text-right {
-    text-align: right;
-}
-
-/* profile image settings */
-.image-profile {
-    position: relative;
-    height: 20%;
-    width: 20%;
-    border-radius: 50%;
-    margin: 1% 0 0 1%;
-}
 
 
-/* classes below affect project images*/
-.image-project1 {
-    height:30rem;
-    width: 30rem;
-    padding: 1%;
-    
-}
 
-.image-project {
-    height: 15rem;
-    width: 15rem;
-    padding: 5%;
-    
-}
 
-.image-project2 {
-    height: 15rem;
-    width: 15rem;
-    position: relative;
-    top: 50%;
-    right: 100%;
-    padding: 5%;
-    
-}
 
-/* make the project images move */
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1%;
-    
-}
 
-/* below is media queries for different sized devices */
 
-@media screen and (max-width: 576) {
-   
-}
+
+
+
