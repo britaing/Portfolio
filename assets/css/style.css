@@ -60,12 +60,13 @@ article {
     display: flex;
     flex-direction: column;
     margin: 15px;
-    
-    
 }
 
 
 /* project section (which is currently placeholders) */
+
+
+
 .projects {
     display: flex;
     flex-direction: row;
@@ -80,6 +81,12 @@ article {
 .project div {
     display: flex;
     padding: 15px;
+}
+
+.project1 {
+    background-image: url(../images/projectImage1.jpg);
+    height: 500px;
+    width: 500px;
 }
 
 .projectImage1 {
@@ -111,15 +118,6 @@ article {
     box-shadow: 5px 5px rgba(128, 128, 128, 0.39);
     height: 150px;
     width: 150px;
-}
-
-.projectTitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: hotpink
-    font-size: 20px;
-
 }
 
 /* simple footer; not sure what else other than date */
