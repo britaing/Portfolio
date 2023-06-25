@@ -1,18 +1,20 @@
+
 * {
     margin: 0;
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --headfoot: #77878B;
 }
 
 body {
-    background-color: #305252;
+    background-color: #6e9797;
 }
 
 header {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #77878B;
+    background-color: var(--headfoot);
     color: black;
 }
 
@@ -20,6 +22,7 @@ header {
 header nav ul {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
@@ -27,6 +30,7 @@ header nav ul li {
     list-style: none;
 }
 
+/* about me section */
 .about {
     display: flex;
     align-items: center;
@@ -45,18 +49,23 @@ header nav ul li {
     width: 100%;
     border-radius: 50%;
     }
-
+/* about me info snippet */
 article {
     width: 70%;
     padding: 0 20px;
 }
 
+/* contact section */
 .contact {
     display: flex;
     flex-direction: column;
     margin: 15px;
+    
+    
 }
 
+
+/* project section (which is currently placeholders) */
 .projects {
     display: flex;
     flex-direction: row;
@@ -74,6 +83,8 @@ article {
 }
 
 .projectImage1 {
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.39);
     display: flex;
     flex-direction: row;
     height: 300px;
@@ -81,21 +92,42 @@ article {
     margin-right: 6px;
 }
 
-.projectImage2 {
+.lastTwo {
+    
     display: flex;
     flex-direction: column;
+    
+}
+
+.projectImage2 {
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.39);
     height: 150px;
     width: 150px;
 }
 
+.projectImage3 {
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.39);
+    height: 150px;
+    width: 150px;
+}
 
+.projectTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: hotpink
+    font-size: 20px;
+
+}
+
+/* simple footer; not sure what else other than date */
 footer {
-    background-color: #77878B;
+    background-color: var(--headfoot);
     color: black;
     text-align: center;
 } */
-
-
 
 
 
