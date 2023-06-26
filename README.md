@@ -10,12 +10,8 @@ Working on this project has helped teach me patience and to give myself grace in
 
 The page may not do exactly what I want it to do yet, but in time I have confidence that it will.
 
-
-
 ## Credits
 
 My tutor Jose (Vinnie) Lopez was able to help me better focus on the pieces not as a whole but in smaller aspects. It was very helpful to get in that mindset and the project was able to approached more efficiently.
--
--
--
+
  
